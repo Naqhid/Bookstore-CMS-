@@ -98,7 +98,7 @@ Run the test suite to verify that everything is working correctly:
 ```
 npm test
 ```
-
+```
 If the test suite passes, you'll be ready to run the app in a local server:
 
 ```
@@ -115,23 +115,12 @@ If the test suite passes, you'll be ready to run the app in a local server:
 <br/>
 
 
-## Watch the Live Version
+### Watch the Live Version
 
 
 click on the link to watch [live version](https://serene-goodall-1ba843.netlify.app/)
 
 <br/>
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Author
