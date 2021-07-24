@@ -23,3 +23,5 @@ Book.propTypes = {
 };
 
 export default Book;
+
+// book functionality stuff
