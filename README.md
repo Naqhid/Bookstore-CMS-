@@ -114,15 +114,6 @@ If the test suite passes, you'll be ready to run the app in a local server:
 
 <br/>
 
-
-### Watch the Live Version
-
-
-click on the link to watch [live version](https://serene-goodall-1ba843.netlify.app/)
-
-<br/>
-
-
 ## Author
 
 Feel free to reach out. I'm always happy to connect :slightly_smiling_face:
