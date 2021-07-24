@@ -1,150 +1,54 @@
+# Bookstore-CMS
 
-Bookstore Redux App is a web application built with react and redux, this web application has a booklist component to show all books, book form to create new books, apply some filter to list of books, filter books by categories.
+In this project we created part of the front-end of a bookstore website, for a theoretical company. We used React and Redux to make the website fast, dynamic and responsive. 
 
+See Live version of app [here](https://project-bookstore-cms.herokuapp.com/) 
+
+## Built With
+
+- Node.js
+- React
+- React-DOM
+- React-Create-App
+- Redux
+- npm
+- CSS
+- ES6
 
 ## Getting Started
 
-This project was built using Javascript 6, React, and Redux, it is a web application and for running on your local environment you should follow these guidelines.
+To get a local copy up and running follow these steps.
+
+1. Clone or copy repository, and navigate to the the `development` branch
+
+2. run `npm install` to install node packages
+
+3. run `npm start` to start the app in the `localhost:3000`, this will start the app in a new browser tab.
 
 
-### Prerequisites
+## AUTHORS
 
-- Javascript 6
-- NPM
-- Node
-- Redux
-- React
-- Bootstrap
+**ROSE SUMBA**
 
-### Setup
-
-```
-Using SSH 
-
-# git clone  git@github.com:Naqhid/Bookstore-CMS-.git
-
-Using HTTPS
-
-# git clone  https://github.com/Naqhid/Bookstore-CMS-.git
-
-```
-
-+ Open terminal on your workspace with
-
-```
-cd /home/workspace/bookstore-redux
-```
+- Github: [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ZawadiSumba66)
+- Linkedin: [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rosesumba/)
 
 
+**AYMAN JABR**
 
-## Install
-
-
-Install NPM
-
-Check that you have node and npm installed
-
-To check if you have Node.js installed, run this command in your terminal:
-
-
-```
-node -v
-```
-
-To confirm that you have npm installed you can run this command in your terminal:
-
-
-```
-npm -v
-```
-
-install  npm and node  using command lines
-
-
-```
-sudo apt update
-sudo apt install npm
-sudo apt install nodejs
-```
-
-Before to start making changes on the project you need to install all dependencies running this command:
-
-```
-npm install
-```
-
-
-Now you can make changes on src files to change the behavior of the application
-
-finally, if you want to run and compile the code run this command
-
-```
-npm start
-```
-
-### Usage
-
-You can go to the browser with the next link:
-
-```
-http://localhost:3000/
-```
-
-
-### Run tests
-
-Run the test suite to verify that everything is working correctly:
-
-```
-npm test
-```
-```
-If the test suite passes, you'll be ready to run the app in a local server:
-
-```
-
-### Tools used on this project
-
-- Visual Studio Code
-- Stylelint
-- Github actions
-- NPM
-
-
-
-<br/>
-
-
-### Watch the Live Version
-
-
-click on the link to watch [live version](https://serene-goodall-1ba843.netlify.app/)
-
-<br/>
-
-
-## Author
-
-Feel free to reach out. I'm always happy to connect :slightly_smiling_face:
-
-
-👤 **Mohammed Naqhid**
-
-- GitHub: [@Naqhid](https://github.com/Naqhid)
-- Twitter: [Naqhid](https://twitter.com/naqhid)
-- LinkedIn: [Naqhid](https://www.linkedin.com/in/mohammed-naqhid-ab3080189/)
-- Email: mnaqhid@gmail.com
-
+- Github: [![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AymanJabr/)
+- Linkedin: [![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayman-jabr/)
 
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## License :memo:
+# Released under MIT License
 
-- We thank microverse inc. for this learning opportunity.
+Copyright (c) 2021 Ayman Jabr, Rose Sumba.
 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-
-
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
