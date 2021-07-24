@@ -30,5 +30,3 @@ BooksList.propTypes = {
 const mapStateToProps = (state) => ({ books: state.appReducer.books });
 
 export default connect(mapStateToProps)(BooksList);
-
-// adding booklist

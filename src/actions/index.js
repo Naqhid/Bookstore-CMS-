@@ -10,5 +10,3 @@ export const actionRemove = (book) => ({
   type: REMOVE_BOOK,
   book,
 });
-
-// actions add
