@@ -1,3 +1,4 @@
+/* eslint-disable eol-last */
 import { useState } from 'react';
 import store from '../store';
 import { actionCreate } from '../actions/index';
@@ -51,3 +52,5 @@ const BooksForm = () => {
 };
 
 export default BooksForm;
+
+// style bookform

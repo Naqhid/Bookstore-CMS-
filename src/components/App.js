@@ -1,3 +1,4 @@
+/* eslint-disable eol-last */
 import BooksForm from '../containers/BooksForm';
 import BooksList from '../containers/BooksList';
 import '../styles.css';
@@ -13,3 +14,5 @@ function App() {
 }
 
 export default App;
+
+// style bookform
