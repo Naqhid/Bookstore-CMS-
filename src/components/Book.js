@@ -1,3 +1,4 @@
+/* eslint-disable eol-last */
 import PropTypes from 'prop-types';
 
 const Book = ({
@@ -41,3 +42,5 @@ Book.propTypes = {
 };
 
 export default Book;
+
+// style book component
