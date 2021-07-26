@@ -1,4 +1,3 @@
-/* eslint-disable eol-last */
 import { CHANGE_FILTER } from '../actions/index';
 
 const initialState = {
@@ -17,5 +16,3 @@ export default function filterReducer(state = initialState, action) {
       return state;
   }
 }
-
-// create filter

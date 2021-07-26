@@ -1,4 +1,3 @@
-/* eslint-disable eol-last */
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
@@ -24,28 +23,34 @@ const BooksList = ({ books, filter }) => {
 
   return (
     <div>
+      <div className="my-navbar">
+        <div className="logo">
+          <h1 className="header normal-style">Bookstore CMS</h1>
+          <span className="header-book normal-style">BOOKS</span>
+          <CategoryFilter className="header-categories normal-style" handleFilterChange={handleFilterChange} />
+        </div>
+        <div className="oval">
+          <i className="far fa-user" />
+        </div>
+      </div>
 
-      <CategoryFilter handleFilterChange={handleFilterChange} />
+      <div className="margin-75 booksform">
 
-      <table>
-        <tr>
-          <th>Book ID</th>
-          <th>Title</th>
-          <th>Category</th>
-        </tr>
         {
-        filteredBooks.map((book) => (
-          <Book
-            id={book.id}
-            title={book.title}
-            category={book.category}
-            key={book.id}
-            removeBook={handleBookRemove}
-          />
-        ))
-}
-      </table>
+          filteredBooks.map((book) => (
+            <Book
+              id={book.id}
+              title={book.title}
+              category={book.category}
+              key={book.id}
+              removeBook={handleBookRemove}
+            />
+          ))
+        }
+      </div>
+
     </div>
+
   );
 };
 
@@ -60,5 +65,3 @@ const mapStateToProps = (state) => ({
 });
 
 export default connect(mapStateToProps)(BooksList);
-
-// filter implementation
