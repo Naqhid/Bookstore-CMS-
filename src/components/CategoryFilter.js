@@ -21,3 +21,5 @@ CategoryFilter.propTypes = {
 };
 
 export default CategoryFilter;
+
+// CategoryFilter create
