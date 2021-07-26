@@ -46,5 +46,3 @@ const BooksForm = () => {
 };
 
 export default BooksForm;
-
-// handleChange functions add
