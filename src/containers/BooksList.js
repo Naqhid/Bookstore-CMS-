@@ -1,3 +1,4 @@
+/* eslint-disable eol-last */
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
@@ -59,3 +60,5 @@ const mapStateToProps = (state) => ({
 });
 
 export default connect(mapStateToProps)(BooksList);
+
+// filter implementation
