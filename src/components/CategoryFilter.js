@@ -1,13 +1,11 @@
+/* eslint-disable eol-last */
 import PropTypes from 'prop-types';
 
 const BOOK_CATEGORIES = ['ALL', 'Action', 'Biography', 'History', 'Horror', 'Kids', 'Learning', 'Sci-Fi'];
 
 const CategoryFilter = ({ handleFilterChange }) => (
-  <form className="form">
-    <select onChange={handleFilterChange} className="header-category-input category-input">
-
-      <option value="" hidden selected>CATEGORIES</option>
-
+  <form>
+    <select onChange={handleFilterChange}>
       {
                 BOOK_CATEGORIES.map((value) => (
                   <option value={value} key={value}>
@@ -24,3 +22,5 @@ CategoryFilter.propTypes = {
 };
 
 export default CategoryFilter;
+
+// CategoryFilter create

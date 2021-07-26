@@ -9,7 +9,7 @@ const Book = ({
     <div className="book-info">
       <h3 className="bookCategory normal-style">{category}</h3>
       <h1 className="bookTitle normal-style">{title}</h1>
-      <p className="author normal-style">Philip Unjani</p>
+      <p className="author normal-style">Naqhid</p>
       <button className="book-buttons" type="button">Commments</button>
       <span className="separate">|</span>
       <button className="book-buttons normal-style" type="button" onClick={() => removeBook(id)}>Remove</button>
