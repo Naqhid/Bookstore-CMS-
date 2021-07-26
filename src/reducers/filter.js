@@ -16,3 +16,5 @@ export default function filterReducer(state = initialState, action) {
       return state;
   }
 }
+
+// create filter
