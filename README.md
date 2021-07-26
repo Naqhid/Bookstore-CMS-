@@ -36,6 +36,10 @@ cd /home/workspace/bookstore-redux
 ```
 
 
+## Live Demo
+
+See Live version of app [here](https://hungry-fermat-0a90f7.netlify.app/) 
+
 
 ## Install
 
